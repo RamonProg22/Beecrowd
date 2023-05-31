@@ -3,8 +3,8 @@
 
 
 int main(){
-    char tweet[140];
-    gets(tweet);
+    char tweet[500];
+    fgets(tweet,500, stdin);
 
     int tam = strlen(tweet);
 
