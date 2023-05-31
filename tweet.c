@@ -12,7 +12,7 @@ int main(){
         printf("TWEET\n");
     }if (tam>140)
     {
-        printf("MUTE\n");
+        printf("\"MUTE\"\n");
     }
     return 0;
 
