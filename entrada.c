@@ -13,7 +13,7 @@ int main(){
     f2[strlen(f2)-1] = '\0';
 
     fgets(f3,100,stdin);
-    f3[strlen(f1)-1] = '\0';
+    f3[strlen(f3)-1] = '\0';
 
     printf("%s%s%s\n", f1,f2,f3);
     printf("%s%s%s\n", f2,f3,f1);
