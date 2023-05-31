@@ -10,10 +10,10 @@ int main(){
 
     if(tam<=140){
         printf("TWEET\n");
-    }else{
+    }if (tam>140)
+    {
         printf("MUTE\n");
     }
-
     return 0;
 
 
